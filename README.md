@@ -1,12 +1,18 @@
-- 👋 Hi, I’m @Siushing24190218
-- 👀 I’m interested in python
-- 🌱 I’m currently learning python
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
-<!---
-Siushing24190218/Siushing24190218 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+version: 2
+updates:
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "github-actions"
+    # Workflow files stored in the
+    # default location of `.github/workflows`
+    directory: "/"
+    schedule:
+      interval: "daily"
