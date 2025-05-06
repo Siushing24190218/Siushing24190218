@@ -1,0 +1,34 @@
+Downloads
+Stable Releases Latest Release
+
+Get the latest stable version of AssetRipper for your platform:
+
+Platform	Download Link
+Windows x64	Download
+Windows Arm64	Download
+Mac x64	Download
+Mac Arm64	Download
+Linux x64	Download
+Linux Arm64	Download
+📝 Release Notes
+
+Pre-Releases Pre-Release
+
+Pre-releases showcase experimental features and are available in the releases section.
+
+⚠️ These versions may be unstable and are recommended for testing purposes only.
+
+Alpha Builds Build Status
+
+For advanced users, every commit triggers an automatic alpha build via Github Actions:
+
+Platform	Download Link
+Windows x64	Download
+Windows Arm64	Download
+Mac x64	Download
+Mac Arm64	Download
+Linux x64	Download
+Linux Arm64	Download
+⚠️ Alpha builds are highly experimental and may contain bugs or unfinished features.
+
+If you encounter any issues, please report them on our Issue Tracker.
